@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    quoting:
+      database: false
+      schema: false
+      identifier: false
+    database: raw
+    schema: jaffle_shop
+    tables:
+      - name: customers
+      - name: orders
