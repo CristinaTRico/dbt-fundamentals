@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_payment
+    description: One payment per row
+    columns:
+      - name: payment_id
+        description: Primary key for stg_payment
